@@ -1,35 +1,4 @@
-<style>
-  div {
-    display: inline-block;
-    text-align: center;
-    width: 100px;
-    height: 200px;
-    padding: 16px;
-    margin: 16px;
-  }
-
-  a {
-    color: white;
-    text-decoration: none;
-  }
-</style>
-
+<!-- The style is in /public -->
 <link rel="stylesheet" href="/style.css">
 
-<h1 class="test">Dragon Ball world!</h1>
-<% @characters.each_with_index do |character| %>
-  <div style="background-size: cover; background-image: linear-gradient(rgba(0,0,0,0.5), rgb(0,0,0,0.2)), url('<%= character.image.include?("../") ? "https://dragon-ball-api.herokuapp.com/api/#{character.image}" : character.image %>');">
-    <a href="/characters/<%= character.id %>">
-      <h2><%= character.name%></h2>
-      <p>Origin planet: <%= character.origin %></p>
-    </a>
-  </div>
-<% end %>
-
-<form action="create" method="post">
-  <label for="name">Name: </label>
-  <input type="text" name="name">
-  <label for="city">Origin: </label>
-  <input type="text" name="origin">
-  <input type="submit" value="Submit">
-</form>
+<h1 class="text-red">Hello <%= @name %>!!</h1>
