@@ -1,0 +1,6 @@
+<h1>Character details:</h1>
+<div style="text-align: center; width: 500px; height: 500px; padding: 16px; margin: 16px; background-size: cover; background-image: linear-gradient(rgba(0,0,0,0.5), rgb(0,0,0,0.2)), url('<%= @character.image.include?("../") ? "https://dragon-ball-api.herokuapp.com/api/#{@character.image}" : @character.image %>'); color: white">
+    <h2><%= @character.name%></h2>
+    <p>Location: <%= @character.origin %></p>
+</div>
+<a href="/">Back </a>
