@@ -1,4 +1,18 @@
 <!-- The style is in /public -->
 <link rel="stylesheet" href="/style.css">
 
-<h1 class="text-red">Hello <%= @name %>!!</h1>
+<h1 class="text-red">Hello!!</h1>
+
+<ul>
+<% @characters.each do |character| %>
+  <li><%= character.name %> from <%= character.species %></li>
+<% end %>
+</ul>
+
+<form action="create" method="post">
+  <label for="name">Name: </label>
+  <input type="text" name="name">
+  <label for="species">Species: </label>
+  <input type="text" name="species">
+  <input type="submit" value="Submit">
+</form>
