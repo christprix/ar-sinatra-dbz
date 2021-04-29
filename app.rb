@@ -3,6 +3,6 @@ require 'sinatra'
 require 'sinatra/reloader'
 
 get '/' do
-  @name = 'people from earth'
+  @name = Character.all.first.name
   erb :index
 end
