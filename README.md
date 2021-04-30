@@ -51,3 +51,7 @@ Build a `#save` instance method saving its instance (self!) in the csv (use `::l
 1. Create the class with the suitable methods
 2. Add a planet to the characters
 3. Fetch the characters planets from the API
+
+### Step 5: Go beyond
+The sky the limit, you can:
+Make a fight game with the characters, build a guess-who game, create a card collection game, ...
