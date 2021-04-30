@@ -8,8 +8,6 @@
 ruby app.rb
 ```
 
-Enjoy!
-
 ## Deploy it on Heroku
 
 1. Install Heroku CLI:
