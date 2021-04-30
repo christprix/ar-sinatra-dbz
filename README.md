@@ -3,15 +3,15 @@
 ## Get started
 
 1. clone the repo
-2. launch a Sinatra server just run this and open a web browser at [http://localhost:4567](http://localhost:4567):
+2. launch a Sinatra server: run the command below and open a web browser at [http://localhost:4567](http://localhost:4567):
+>>>>>>> 58d824f3f89d588339df03f45f6cec23c906db64
 ```bash
 ruby app.rb
 ```
 
-Enjoy!
-
 ## Deploy it on Heroku
 
+>>>>>>> 58d824f3f89d588339df03f45f6cec23c906db64
 1. Install Heroku CLI:
 ```bash
 brew tap heroku/brew && brew install heroku # for Mac
@@ -53,3 +53,8 @@ Build a `#save` instance method saving its instance (self!) in the csv (use `::l
 1. Create the class with the suitable methods
 2. Add a planet to the characters
 3. Fetch the characters planets from the API
+
+### Step 5: Go beyond
+The sky the limit, you can:
+Make a fight game with the characters, build a guess-who game, create a card collection game, ...
+>>>>>>> 58d824f3f89d588339df03f45f6cec23c906db64
