@@ -3,7 +3,7 @@
 ## Get started
 
 1. clone the repo
-2. launch a Sinatra server just run this and open a web browser at [http://localhost:4567](http://localhost:4567):
+2. launch a Sinatra server: run the command below and open a web browser at [http://localhost:4567](http://localhost:4567):
 ```bash
 ruby app.rb
 ```
