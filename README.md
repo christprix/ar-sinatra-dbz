@@ -39,7 +39,7 @@ Build a `#save` instance method saving its instance (self!) in the csv (use `::l
 3. Create a form to create a new character
 
 ### Step 2: Fetch data from the DBZ API
-1. Get and display the DBZ characters name list from `https://dragonball-wiki-api.herokuapp.com/`
+1. Get and display the DBZ characters name list from `https://hayatos-dbz-api.herokuapp.com/`
 2. Create a character from of the name selected in the previous list.
 3. Add more attributes to character: image (and display it!), gender, series...
 
